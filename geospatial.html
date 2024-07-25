@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>GIS</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+
+  <!-- Favicon -->
+  <link href="assets/img/akunna_logo.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div id="logo">
+        <h1><a href="index.html"><span>Akunna</span>TechStudio</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about-us">About Me</a></li> <!-- about-us is about-me -->
+          <li><a class="nav-link scrollto" href="intro.html">Intro</a></li>
+          <li class="dropdown"><a href="#"><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+
+              <li class="dropdown"><a href="#"><span>Data Science Projects</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="mining.html">Data Mining</a></li>
+                  <li><a href="geospatial.html">Geospatial Data Analysis</a></li>
+                  <li><a href="predictive.html">Predictive modeling</a></li>
+                  <li><a href="scraping.html">Web Scraping</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href="#"><span>Mobile App Projects</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="flutter.html">Flutter Apps</a></li>
+                  <li><a href="ios.html">iOS Apps</a></li>
+                </ul>
+              </li>
+
+              <li><a href="webapp.html">Web App Projects</a></li>
+
+              <li><a href="webgis.html">WebGIS Projects</a></li>
+
+            </ul>
+          </li>
+          <!--For resume download-->     
+          <li><a href="https://drive.google.com/file/d/1eKJK1WdW94oYSyrjlL1FG0DqwaRGFTs1/view?usp=sharing" target="_blank">Resume</a></li>
+          <li><a class="nav-link scrollto" href="services.html">Services</a></li>
+          <li><a class="nav-link scrollto" href="pricing.html">Pricing</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+
+    </div>
+  </header><!-- End Header -->
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Geospatial Data Analysis</h2>
+          </div>
+        </div>
+    </section><!-- End Breadcrumbs -->
+
+  <main id="main">
+
+    <section class="inner-page pt-4">
+        <div class="container" style="display: grid; grid-template-columns: 70% 30%; grid-column-gap: 10px;"> <!--display: grid; property and grid-template-columns: 30% 70%; creates a grid layout with two columns-->
+          
+          <div> <!--serves as the first column-->
+            <p style="text-align: left;">
+                <span style="color: #71c55d;"><b>What is Geospatial Data Analysis?</b></span>
+                It involves studying information tied to specific locations on Earth, like mapping where things are 
+                and understanding patterns in the data based on geography. It helps in making decisions related to 
+                things like urban planning, disaster response, and environmental management, enabling informed actions 
+                to address spatial challenges and improve resource allocation.  
+            </p>
+
+            <p style="text-align: left;">
+              One can analyze geospatial data using software like ArcGIS, QGIS, GRASS GIS, Google Earth Engine, and 
+              R with packages like sf and rgdal. These tools offer a wide range of functionalities for mapping, 
+              spatial analysis, visualization, and modeling, catering to diverse needs in geospatial research 
+              and applications.
+            </p>
+          </div> <!--end of first column-->
+
+            <div> <!--serves as the second column-->
+                <img src="assets/img/svg/gps.svg" alt="img" width="100%">
+            </div>
+
+        </div> <!--end of grid-->
+      </section>
+      <hr>
+
+    <section class="inner-page pt-4">
+      <div class="container">
+        <div>
+          <p style="font-weight: bold; font-size: 22px;">
+            PROJECTS
+          </p>   
+        </div>
+        
+        
+      </div>
+    </section>
+
+    <section class="inner-page pt-4">
+      <div class="container" style="display: grid; grid-template-columns: 65% 35%;"> <!-- Added % after each value -->
+          <div id="interesting-border4"> <!-- First column -->
+            <p style="font-weight: bold; color: #71c55d; font-size: 16px;">1. Analyzing Vegetation Health and Socio-Economic Factors in Sacramento County</p>
+            <p style="text-align: left;">
+              <span style="color: #71c55d;"><b>Objective:</b></span>
+              to examine the relationship between vegetation health, as indicated by NDVI (Normalized Difference 
+              Vegetation Index), and socio-economic factors, specifically household income, in Sacramento County, 
+              California.
+            </p>
+            <p style="text-align: left;">
+              <span style="color: #71c55d;"><b>Tools Utilized:</b></span>
+               R (dplyr, tidyverse, tidyr, sf, and tidycensus), ArcGIS Pro, and Microsoft Excel
+            </p>
+              <p style="text-align: left;">
+                  The analysis begins by processing Landsat satellite imagery, combining the red (i.e the 
+                  red band of Landsat satellite imagery covering the Sacramento County area) and near-infrared bands 
+                  to create a raster multispectral image. NDVI, a common vegetation index, is then calculated from this 
+                  multispectral image using ArcGIS Pro. NDVI values represent the density and health of vegetation in 
+                  the area, with higher values indicating healthier vegetation.
+              </p>
+            <p style="text-align: left;">
+                Next, income information for Sacramento County is obtained from the 2019 5-year American Community 
+                Survey (ACS) using the tidycensus package in R. The percentage of households earning less than $35,000 
+                per year in each census tract is calculated. 
+                Spatial data for census tracts is acquired from the Census Bureau's TIGER/Line website and joined with 
+                the income data obtained from tidycensus. This allows for the visualization of the proportion of 
+                low-income households in each census tract.
+            </p>
+          </div> <!-- End of first column -->
+      
+          <div style="max-width: 100%;"> <!-- Modified second column -->
+            <img src="assets/img/proj/geospatial1.png" alt="img" style="width: 100%; max-width: 100%; height: auto; margin: 10px;">
+          </div> <!-- End of modified second column -->
+  
+      </div> <!-- End of grid -->
+  </section>
+
+<section class="inner-page pt-4">
+  <div class="container" style="display: grid; grid-template-columns: 50% 50%;"> <!-- Added % after each value -->
+      <div> <!-- First column -->
+        <img src="assets/img/proj/geospatial2.png" alt="img" width="100%" style="margin: 1px;">
+      </div> <!-- End of first column -->
+  
+      <div style="max-width: 100%;"> <!-- Modified second column -->
+        <p style="text-align: left;">
+          Using ArcGIS Pro, zonal statistics are performed to calculate statistics on NDVI values within each 
+          census tract. This step is crucial as it allows for the aggregation of NDVI information at the census 
+          tract level, providing a more localized understanding of vegetation health across Sacramento County. 
+          By obtaining the mean NDVI value for each tract, one can assess the overall vegetation health within 
+          different socio-economic contexts, aiding in the analysis of the relationship between vegetation health 
+          and household income.
+      </p>
+      <p style="text-align: left;">
+        Finally, the relationship between average NDVI values and the percentage of low-income households is analyzed using a scatter plot created in Excel. The analysis concludes that there is a low correlation between NDVI and household income in Sacramento County, as indicated by a low R-squared value of 0.1605. This suggests that NDVI is unlikely to be a dependent variable of household income or vice versa.
+      </p>
+      </div> <!-- End of modified second column -->
+  </div> <!-- End of grid -->
+</section>
+
+
+<section class="inner-page pt-4">
+  <div class="container" style="display: grid; grid-template-columns: 45% 55%; grid-column-gap: 5px;">
+      <div> <!-- First column -->
+        <img src="assets/img/proj/geospatial3.png" alt="img" width="96%">
+      </div> <!-- End of first column -->
+  
+      <div> <!-- Second column -->
+        <img src="assets/img/proj/geospatial4.png" alt="img" width="100%">
+      </div> <!-- End of second column -->
+  </div> <!-- End of grid -->
+</section>
+  
+  <section class="inner-page pt-4">
+      <div class="container">
+        <div>    
+          <p style="text-align: justify;">
+              <a href="https://github.com/akunna1/Raster-Analysis-Sacramento" target="_blank"
+                 style="background: #71c55d; border: 0; padding: 10px 24px; 
+                        color: #fff; text-decoration: none; border-radius: 35px; 
+                        font-family: 'Roboto', sans-serif;
+                        transition: background-color 0.4s;"
+                 onmouseover="this.style.background='#92d283';" 
+                 onmouseout="this.style.background='#71c55d';">
+                  <b>Code</b>
+              </a>
+          </p>
+        </div>         
+      </div>
+  </section>
+
+  <br><br><br>
+
+  <section class="inner-page pt-4">
+    <div class="container" style="display: grid; grid-template-columns: 40% 60%; column-gap: 10px;"> <!-- Added % after each value -->
+      <div id="interesting-border4"> <!-- First column -->
+        <p style="font-weight: bold; color: #71c55d; font-size: 18px;">2. Analysis of Equatorial Guinea <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Equatorial_Guinea.svg" alt="Equatorial Guinea Flag" width="30" height="30">
+        </p>
+  
+        <p style="text-align: left;">
+          <span style="color: #71c55d;"><b>Objective:</b></span>
+          to analyze the region's slope, gross primary productivity (GPP), normalized burn ratio thermal 
+          (NBRT), and normalized difference vegetation index (NDVI).
+        </p>
+  
+        <p style="text-align: left;">
+          <span style="color: #71c55d;"><b>Tools Utilized:</b></span>
+          Google Earth Engine (LandSat Image, MODIS, and NASA SRTM) and JavaScript
+        </p>
+  
+        <p style="text-align: left;">
+          Definitions and color codes are available with code on github. Can this project be considered WebGIS also? &#129300;
+        </p>
+  
+        <section class="inner-page pt-4"> <!-- For the button -->
+          <div class="container"> <!-- Button 1 -->
+            <div>    
+              <p style="text-align: justify;">
+                <a href="https://github.com/akunna1/Equatorial-Guinea-Analysis" target="_blank"
+                  style="background: #71c55d; border: 0; padding: 10px 24px; 
+                  color: #fff; text-decoration: none; border-radius: 35px; 
+                  font-family: 'Roboto', sans-serif;
+                  transition: background-color 0.4s;"
+                  onmouseover="this.style.background='#92d283';" 
+                  onmouseout="this.style.background='#71c55d';">
+                  <b>Code</b>
+                </a>
+              </p>
+            </div>        
+          </div>
+        </section>
+      </div> <!-- End of First column -->
+      
+      <!-- Second column for video -->
+      <div> 
+        <section id="videox" class="text-center">
+          <div class="overlay">
+            <div class="container-fluid container-full" data-aos="zoom-in">
+  
+              <div class="row">
+                <a href="assets/video/gee1.mp4" class="glightbox play-btn"></a>
+              </div>
+  
+            </div>
+          </div>
+        </section>
+      </div> <!-- End of Second column -->
+    </div> <!-- End of Container -->
+  </section> <!-- End of Section -->
+  
+    <br><br><br>
+
+  <section class="inner-page pt-4">
+    <div class="container">
+      <h5 style="text-align: center;"><b>More projects are available on <a href="https://www.github.com/akunna1" target="_blank">Github</a></b></h5>
+    </div>
+  </section>
+
+  <br><br>
+  
+    
+  </main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-4">
+        <div class="footer-logo">
+          <img src="assets/img/akunna_logo.png" alt="Akunna Tech Studio Logo" height="32px" width="37px">
+
+          <a class="navbar-brand" href="#">Stay Informed</a>
+          <p>Discover top-tier services and expertise in tutoring, web & mobile app development, and data science, 
+            exclusively at Akunna Tech Studio.</p>
+        </div>
+      </div>
+
+      <div class="col-md-12 col-lg-8 text-md-end">
+        <div class="social-icons">
+          <ul class="list-unstyled">
+            <p style="color: #808080;">Stay connected via Social Media for the latest updates!</p>
+            <li class="social-icon"><a href="https://www.github.com/akunna1" target="_blank"><i class="bi bi-github"></i></a></li>
+            <li class="social-icon"><a href="https://www.facebook.com/Akunna12/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+            <li class="social-icon"><a href="https://www.instagram.com/aku__nna/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+            <li class="social-icon"><a href="https://www.linkedin.com/in/akunna1" target="_blank"><i class="bi bi-linkedin" target = "_blank"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <div class="copyrights">
+    <div class="container">
+      <p>&copy; Copyrights <span style="color: #71c55d;">Akunna Tech Studio</span>| All Rights Reserved</p>
+    </div>
+  </div>
+
+</footer>
+<!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Web App</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  
+  <!-- Font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  
+  <!-- Favicon -->
+  <link href="assets/img/akunna_logo.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div id="logo">
+        <h1><a href="index.html"><span>Akunna</span>TechStudio</a></h1>
+        <!-- Uncomment below to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/akunna_logo.png" alt="ATS Logo" /></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about-us">About Me</a></li> <!-- about-us is about-me -->
+          <li><a class="nav-link scrollto" href="intro.html">Intro</a></li>
+          <li class="dropdown"><a href="#"><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+
+              <li class="dropdown"><a href="#"><span>Data Science Projects</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="mining.html">Data Mining</a></li>
+                  <li><a href="geospatial.html">Geospatial Data Analysis</a></li>
+                  <li><a href="predictive.html">Predictive modeling</a></li>
+                  <li><a href="scraping.html">Web Scraping</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href="#"><span>Mobile App Projects</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="flutter.html">Flutter Apps</a></li>
+                  <li><a href="ios.html">iOS Apps</a></li>
+                </ul>
+              </li>
+
+              <li><a href="webapp.html">Web App Projects</a></li>
+
+              <li><a href="webgis.html">WebGIS Projects</a></li>
+
+            </ul>
+          </li>
+          <!--For resume download-->     
+          <li><a href="https://drive.google.com/file/d/1eKJK1WdW94oYSyrjlL1FG0DqwaRGFTs1/view?usp=sharing" target="_blank">Resume</a></li>
+          <li><a class="nav-link scrollto" href="services.html">Services</a></li>
+          <li><a class="nav-link scrollto" href="pricing.html">Pricing</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+
+    </div>
+  </header><!-- End Header -->
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Web App Development</h2>
+          </div>
+        </div>
+    </section><!-- End Breadcrumbs -->
+
+  <main id="main">
+
+    <section class="inner-page pt-4">
+        <div class="container" style="display: grid; grid-template-columns: 70% 30%; grid-column-gap: 15px;"> <!--display: grid; property and grid-template-columns: 30% 70%; creates a grid layout with two columns-->
+
+            <div> <!--serves as the first column-->
+                <p style="text-align: left;">
+                    <span style="color: #71c55d;"><b>What is Web App Development?</b></span>
+                    It is the process of creating software applications that run on the internet instead of your computer or phone. 
+                    These apps can be accessed through a web browser, like Chrome or Safari, without needing to download or install 
+                    anything.
+                </p>
+    
+                <p style="text-align: left;">
+                    In web app development, developers work to make sure the app works smoothly across different devices and 
+                    browsers, like laptops, tablets, and smartphones. They also focus on making the app user-friendly, with features 
+                    that are easy to navigate and understand. 
+                </p>
+              </div> <!--end of first column-->
+
+            <div> <!--serves as second column-->
+                <img src="assets/img/svg/svg7.svg" alt="img" width="100%">
+            </div> <!--end of second column-->
+
+
+        </div> <!--end of grid-->
+      </section>
+      <hr>
+
+    <section class="inner-page pt-4">
+      <div class="container">
+        <div>
+          <p style="font-weight: bold; font-size: 22px;">
+            PROJECTS
+          </p>         
+        </div>      
+      </div>
+    </section>
+
+    <section class="inner-page pt-4" style="margin: 0 17%;">
+      <div class="container">
+
+          <div id="interesting-border4">
+            <p style="font-weight: bold; color: #71c55d; font-size: 18px;">1. University Website and Application Form</p>
+            <p style="text-align: left;"><span style="color: #71c55d;"><b>Project Type:</b></span>Front end</p>
+            <p style="text-align: left;">
+              <span style="color: #71c55d;"><b>Objective:</b></span>
+              to create a university website for that mimics a gothic, dark and gloomy theme, inspired by Harry Potter's Hogwarts School
+              and to create a complimentary close to operational application form for propestive students to apply
+            </p>
+
+            <p style="text-align: left;">
+              <span style="color: #71c55d;"><b>Tools Utilized:</b></span>
+              Vanilla HTML, CSS, and JavaScript
+            </p>
+
+            <p style="text-align: left;">Click the buttons below to learn more about the University of Blackmourne Hollows at Shadowbrook &#128128;
+            </p>
+            <section class="inner-page pt-4"> <!--For the two buttons-->
+
+              <div class="container"> <!--Button 1-->
+                <div>    
+                    <p style="text-align: justify;">
+                        <a href="https://github.com/akunna1/College-Website-and-Application-Form" target="_blank"
+                          style="background: #71c55d; border: 0; padding: 10px 24px; 
+                                  color: #fff; text-decoration: none; border-radius: 35px; 
+                                  font-family: 'Roboto', sans-serif;
+                                  transition: background-color 0.4s;"
+                          onmouseover="this.style.background='#92d283';" 
+                          onmouseout="this.style.background='#71c55d';">
+                            <b>Code</b>
+                        </a>
+                    </p>
+                </div>        
+              </div>
+      
+              <div class="container"> <!--Button 2-->  
+                <div>    
+                  <p style="text-align: justify;">
+                    <a href="index.html#video" target="_blank"
+                      style="background: rgb(152, 151, 151); border: 0; padding: 10px 24px; 
+                              color: #fff; text-decoration: none; border-radius: 35px; 
+                              font-family: 'Roboto', sans-serif;
+                              transition: background-color 0.4s; white-space: nowrap;"
+                      onmouseover="this.style.background='rgb(180, 178, 178)';" 
+                      onmouseout="this.style.background='rgb(152, 151, 151)';">
+                        <b>Watch Video</b>
+                    </a>
+                  </p>
+                </div> 
+              </div>
+              
+            </section>
+      
+    
+          </div> <!--end of interesting border-->
+      </div> 
+  </section>
+  <br><br><br><br>
+  <section class="inner-page pt-4" style="margin: 0 17%;">
+    <div class="container">
+
+        <div id="interesting-border4">
+          <p style="font-weight: bold; color: #71c55d; font-size: 18px;">2. Akunna Tech Studio Website</p>
+          <p style="text-align: left;"><span style="color: #71c55d;"><b>Project Type:</b></span>Front end</p>
+          <p style="text-align: left;">
+            <span style="color: #71c55d;"><b>Objective:</b></span>
+            to create a place to showcase my portfolio, resume, offer services, etc. And creating it helped me become more
+            comfortable with web design, making web pages and apps mobile responsive and utlizing front-end frameworks that make
+            creating front-end projects quicker and easier &#128522;
+          </p>
+
+          <p style="text-align: left;">
+            <span style="color: #71c55d;"><b>Tools Utilized:</b></span>
+            HTML, CSS, JavaScript, and BootStrap
+          </p>
+  
+        </div> <!--end of interesting border-->
+    </div> 
+</section>
+<br><br><br><br>
+
+
+    <section class="inner-page pt-4" style="margin: 0 17%;">
+      <div class="container">
+
+          <div id="interesting-border4">
+            <p style="font-weight: bold; color: #71c55d; font-size: 18px;">3. Job Application Platform with Automated Evaluation</p>
+            <p style="text-align: left;"><span style="color: #71c55d;"><b>Project Type:</b></span>Full Stack</p>
+            <p style="text-align: left;">
+             Automated Evaluation = Applicant Tracking System and more (ATS+)
+            </p>
+
+            <p style="text-align: left;">
+              <span style="color: #71c55d;"><b>Objective:</b></span>
+                to understand the skills of software engineers by mining their resumes, 
+                to gain insights that would help me complete my own resume and create a job application platform, to generate a cover letter,
+                to make an ATS+ for a Software Engineer job position
+            </p>
+
+            <p>
+              <span style="color: #71c55d;"><b>Application Process:</b></span>
+              Applicant completes and submits form <i class="fas fa-arrow-right" style="color: plum;"></i> Form is sent to Google Cloud Storage Bucket 
+              <i class="fas fa-arrow-right" style="color: plum;"></i>
+              Form is retrieved from bucket <i class="fas fa-arrow-right" style="color: plum;"></i> Form is processed by the evaluation code 
+              <i class="fas fa-arrow-right" style="color: plum;"></i> Applicant is scored
+          </p>
+          
+
+            <p style="text-align: left;">
+              <span style="color: #71c55d;"><b>Tools Utilized:</b></span>
+              HTML, Tailwind CSS, JavaScript, Node.js, Express.js, Google Cloud Storage, Python (nltk), and Git
+            </p>
+          </div>
+      </div> 
+  </section>
+
+  <br>
+
+<section class="inner-page pt-4" style="position: relative;">
+
+  <div class="container d-flex justify-content-center align-items-center">
+    <div id="interesting-borderb" style="width: 50%;">
+      <p style="text-align: left;">
+        <span><b>Project Components:</b></span><br>
+        &emsp;<span style="color: rosybrown;">&bull;</span><a href="mining.html" target="_blank"> Data Mining Resumes  &#128204;</a><br>
+        &emsp;<span style="color: rosybrown;">&bull;</span> Job App Platform with Cloud Storage Integration<br>
+        &emsp;<span style="color: rosybrown;">&bull;</span> Cover Letter Generation<br>
+        &emsp;<span style="color: rosybrown;">&bull;</span><a href="mining.html" target="_blank"> Automated Evaluation &#128204;</a><br>
+      </p>
+    </div>
+  </div>
+</section>
+  
+  <br><br>
+
+<section class="inner-page pt-4" style="position: relative;">
+  <img src="assets/img/grey.png" alt="img" style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); width: 100%; height: 25%; z-index: -1;">
+
+  <div class="container" style="display: grid; grid-template-columns: 68% 32%; grid-column-gap: 15px;"> <!-- Added % after each value -->
+
+    <div id="interesting-border4"> <!-- first column -->
+      <p style="text-align: left; font-weight: bold; font-size: 16px;">
+          <b>Job App Platform with Cloud Storage Integration</b>
+      </p>
+
+      <p style="text-align: left;">
+          Do you think you are qualified for a position at Neptune Technologies? 😁
+          <br>
+          Unfortunately, the node app is not being hosted publicly, but you can view the job application and watch the video 
+          below to see it in action!
+          <img src="assets/img/proj/nt_logo.png" alt="img" width="27%" height="40%" 
+          style="margin: 10px; border-radius: 10px; opacity: 0.3; float: right;">
+      </p>
+
+      <section class="inner-page pt-4"> <!--For the two buttons-->
+
+        <div class="container"> <!--Button 1-->
+          <div>    
+              <p style="text-align: justify;">
+                  <a href="https://github.com/akunna1/NP-Job-Application" target="_blank"
+                    style="background: #71c55d; border: 0; padding: 10px 24px; 
+                            color: #fff; text-decoration: none; border-radius: 35px; 
+                            font-family: 'Roboto', sans-serif;
+                            transition: background-color 0.4s;"
+                    onmouseover="this.style.background='#92d283';" 
+                    onmouseout="this.style.background='#71c55d';">
+                      <b>Code</b>
+                  </a>
+              </p>
+          </div>        
+        </div>
+
+        <div class="container"> <!--Button 2-->  
+          <div>    
+            <p style="text-align: justify;">
+              <a href="https://akunnatechstudio.com/front_end/term_project.html" target="_blank"
+                style="background: rgb(152, 151, 151); border: 0; padding: 10px 24px; 
+                        color: #fff; text-decoration: none; border-radius: 35px; 
+                        font-family: 'Roboto', sans-serif;
+                        transition: background-color 0.4s; white-space: nowrap;"
+                onmouseover="this.style.background='rgb(180, 178, 178)';" 
+                onmouseout="this.style.background='rgb(152, 151, 151)';">
+                  <b>View Here</b>
+              </a>
+            </p>
+          </div> 
+        </div>
+        
+      </section>
+
+    </div> <!-- End of first column -->  
+
+    <div id="interesting-border4" style="margin-right: 10px; max-width: 100%;"> <!-- Modified second column -->
+      <p style="text-align: left; font-weight: bold; font-size: 16px;">
+          <b>Cover Letter Generation</b>
+      </p>
+
+      <p>
+        Asked Chat GPT to generate a cover letter using: <br>
+        Resume +  Top 50 words + Top 20 word 
+        pairs + Top 10 verbs, adverbs, adjectives, and nouns + Preferred qualifications
+      </p>     
+    </div>  <!-- End of second column -->
+
+  </div> <!-- End of grid -->
+</section>
+
+
+<br><br>
+    <!-- Video Section -->
+    <section id="videox" class="text-center">
+      <div class="overlay">
+        <div class="container-fluid container-full" data-aos="zoom-in">
+
+          <div class="row">
+            <a href="assets/video/neptune_technologies.mp4" class="glightbox play-btn"></a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- End Video Section -->
+
+
+<br><br><br><br>
+
+<section class="inner-page pt-4" style="margin: 0 17%;">
+  <div class="container">
+
+      <div id="interesting-border4">
+        <p style="font-weight: bold; color: #71c55d; font-size: 18px;">4. Quasar Job Board Platform</p>
+        <p style="text-align: left;"><span style="color: #71c55d;"><b>Project Type:</b></span>Front end</p>
+
+        <p style="text-align: left;">
+          <span style="color: #71c55d;"><b>Objective:</b></span>
+            to design and implement a front-end job board platform for technology-related positions, integrating 
+            intuitive navigation and interactive elements. Utilize contemporary web development methodologies to 
+            craft an aesthetically pleasing and functional interface catering to the needs of both job seekers and 
+            employers
+        </p>
+
+        <p style="text-align: left;">
+          <span style="color: #71c55d;"><b>Tools Utilized:</b></span>
+          React, Material UI, JavaScript XML, Vite, HTML, Hooks, and Tailwind CSS
+        </p>
+        <section class="inner-page pt-4"> <!--For the button-->
+          <div class="container"> <!--Button 1-->
+            <div>    
+                <p style="text-align: justify;">
+                    <a href="https://github.com/akunna1/Quasar-Job-Board" target="_blank"
+                      style="background: #71c55d; border: 0; padding: 10px 24px; 
+                              color: #fff; text-decoration: none; border-radius: 35px; 
+                              font-family: 'Roboto', sans-serif;
+                              transition: background-color 0.4s;"
+                      onmouseover="this.style.background='#92d283';" 
+                      onmouseout="this.style.background='#71c55d';">
+                        <b>Code</b>
+                    </a>
+                </p>
+            </div>        
+          </div>
+        </section>
+      </div>
+  </div> 
+</section>
+<br><br>
+
+    <!-- Video Section -->
+    <section id="videox" class="text-center">
+      <div class="overlay">
+        <div class="container-fluid container-full" data-aos="zoom-in">
+
+          <div class="row">
+            <a href="assets/video/quasar.mp4" class="glightbox play-btn"></a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- End Video Section -->
+    <br><br><br><br>
+
+    <section class="inner-page pt-4" style="margin: 0 17%;">
+      <div class="container">
+    
+          <div id="interesting-border4">
+            <p style="font-weight: bold; color: #71c55d; font-size: 18px;">5. Mental Health Robot Assistant</p>
+            <p style="text-align: left;"><span style="color: #71c55d;"><b>Project Type:</b></span>Front end</p>
+    
+            <p style="text-align: left;">
+              <span style="color: #71c55d;"><b>Objective:</b></span>
+                to create a mobile-responsive, web-based robot mental health assistant called Mojo, by leveraging DOM manipulation. Mojo provides me with support resources depending on how I am feeling
+            </p>
+    
+            <p style="text-align: left;">
+              <span style="color: #71c55d;"><b>Tools Utilized:</b></span>
+              jQuery, BootStrap, JavaScript, CSS, and HTML
+            </p>
+            <section class="inner-page pt-4"> <!--For the button-->
+              <div class="container"> <!--Button 1-->
+                <div>    
+                    <p style="text-align: justify;">
+                        <a href="https://github.com/akunna1/Robot-Mojo-Assistant" target="_blank"
+                          style="background: #71c55d; border: 0; padding: 10px 24px; 
+                                  color: #fff; text-decoration: none; border-radius: 35px; 
+                                  font-family: 'Roboto', sans-serif;
+                                  transition: background-color 0.4s;"
+                          onmouseover="this.style.background='#92d283';" 
+                          onmouseout="this.style.background='#71c55d';">
+                            <b>Code</b>
+                        </a>
+                    </p>
+                </div>        
+              </div>
+            </section>
+          </div>
+      </div> 
+    </section>
+    <br><br>
+    
+        <!-- Video Section -->
+        <section id="videox" class="text-center">
+          <div class="overlay">
+            <div class="container-fluid container-full" data-aos="zoom-in">
+    
+              <div class="row">
+                <a href="assets/video/mojo.mp4" class="glightbox play-btn"></a>
+              </div>
+    
+            </div>
+          </div>
+        </section>
+        <!-- End Video Section -->
+        <br><br><br><br>
+        <section class="inner-page pt-4" style="margin: 0 17%;">
+          <div class="container">
+        
+              <div id="interesting-border4">
+                <p style="font-weight: bold; color: #71c55d; font-size: 18px;">6. History Quiz App</p>
+                <p style="text-align: left;"><span style="color: #71c55d;"><b>Project Type:</b></span>Full Stack</p>
+        
+                <p style="text-align: left;">
+                  <span style="color: #71c55d;"><b>Objective:</b></span>
+                  to leverage  Flask (Python's micro webframework) to create and design a simple mobile responsive quiz app on the political history of Nigeria, strictly for educational purposes
+                </p>
+        
+                <p style="text-align: left;">
+                  <span style="color: #71c55d;"><b>Tools Utilized:</b></span>
+                  Flask, HTML, CSS, and JavaScript
+                </p>
+
+                <section class="inner-page pt-4"> <!--For the button-->
+                  <div class="container"> <!--Button 1-->
+                    <div>    
+                        <p style="text-align: justify;">
+                            <a href="https://github.com/akunna1/Nigerian-History-Quiz-App" target="_blank"
+                              style="background: #71c55d; border: 0; padding: 10px 24px; 
+                                      color: #fff; text-decoration: none; border-radius: 35px; 
+                                      font-family: 'Roboto', sans-serif;
+                                      transition: background-color 0.4s;"
+                              onmouseover="this.style.background='#92d283';" 
+                              onmouseout="this.style.background='#71c55d';">
+                                <b>Code</b>
+                            </a>
+                        </p>
+                    </div>        
+                  </div>
+                </section>
+              </div>
+          </div> 
+        </section>
+        <br><br>
+        
+            <!-- Video Section -->
+            <section id="videox" class="text-center">
+              <div class="overlay">
+                <div class="container-fluid container-full" data-aos="zoom-in">
+        
+                  <div class="row">
+                    <a href="assets/video/quiz.mp4" class="glightbox play-btn"></a>
+                  </div>
+        
+                </div>
+              </div>
+            </section>
+            <!-- End Video Section -->
+
+    <br><br><br><br>
+    <section class="inner-page pt-4" style="margin: 0 17%;">
+      <div class="container">
+    
+          <div id="interesting-border4">
+            <p style="font-weight: bold; color: #71c55d; font-size: 18px;">7. Nduka Social Media App</p>
+            <p style="text-align: left;"><span style="color: #71c55d;"><b>Project Type:</b></span>Full Stack</p>
+    
+            <p style="text-align: left;">
+              <span style="color: #71c55d;"><b>Objective:</b></span>
+              to create a supportive social media platform, enabling safe sharing of personal traumas and self help resources, in addition to fostering mutual support, implementing features like 
+              user content management and anonymous account creation
+            </p>
+    
+            <p style="text-align: left;">
+              <span style="color: #71c55d;"><b>Tools Utilized:</b></span>
+              MongoDB, Mongoose, Node.js, Express.js, React, Tailwind CSS, Postman, and Vite
+            </p>
+            <p style="text-align: left;">Looks a bit like Facebook, right? Don't worry, this is not the final version! The entire project is about 70% complete. Server side code is available! More updates coming soon...</p>
+            <section class="inner-page pt-4"> <!--For the button-->
+              <div class="container"> <!--Button 1-->
+                <div>    
+                    <p style="text-align: justify;">
+                        <a href="https://github.com/akunna1/Nduka-Social-Media-App" target="_blank"
+                          style="background: #71c55d; border: 0; padding: 10px 24px; 
+                                  color: #fff; text-decoration: none; border-radius: 35px; 
+                                  font-family: 'Roboto', sans-serif;
+                                  transition: background-color 0.4s;"
+                          onmouseover="this.style.background='#92d283';" 
+                          onmouseout="this.style.background='#71c55d';">
+                            <b>Code</b>
+                        </a>
+                    </p>
+                </div>        
+              </div>
+            </section>
+          </div>
+      </div> 
+    </section>
+    <br><br>
+    
+        <!-- Video Section -->
+        <section id="videox" class="text-center">
+          <div class="overlay">
+            <div class="container-fluid container-full" data-aos="zoom-in">
+    
+              <div class="row">
+                <a href="assets/video/nduka.mp4" class="glightbox play-btn"></a>
+              </div>
+    
+            </div>
+          </div>
+        </section>
+        <!-- End Video Section -->
+
+<br><br><br><br>
+
+
+  </main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-4">
+        <div class="footer-logo">
+          <img src="assets/img/akunna_logo.png" alt="Akunna Tech Studio Logo" height="32px" width="37px">
+
+          <a class="navbar-brand" href="#">Stay Informed</a>
+          <p>Discover top-tier services and expertise in tutoring, web & mobile app development, and data science, 
+            exclusively at Akunna Tech Studio.</p>
+        </div>
+      </div>
+
+      <div class="col-md-12 col-lg-8 text-md-end">
+        <div class="social-icons">
+          <ul class="list-unstyled">
+            <p style="color: #808080;">Stay connected via Social Media for the latest updates!</p>
+            <li class="social-icon"><a href="https://www.github.com/akunna1" target="_blank"><i class="bi bi-github"></i></a></li>
+            <li class="social-icon"><a href="https://www.facebook.com/Akunna12/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+            <li class="social-icon"><a href="https://www.instagram.com/aku__nna/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+            <li class="social-icon"><a href="https://www.linkedin.com/in/akunna1" target="_blank"><i class="bi bi-linkedin" target = "_blank"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <div class="copyrights">
+    <div class="container">
+      <p>&copy; Copyrights <span style="color: #71c55d;">Akunna Tech Studio</span>| All Rights Reserved</p>
+    </div>
+  </div>
+
+</footer>
+<!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
