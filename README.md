@@ -1,4 +1,3 @@
-```markdown
 # Legacy Version — Akunna Tech Studio
 
 This code is for the previous version of Akunna Tech Studio, built with vanilla HTML, CSS, and JavaScript.
@@ -33,6 +32,3 @@ A simple, responsive personal website showcasing projects and skills before upgr
 ## Note
 
 This legacy version is no longer maintained and is provided for reference only.
-
-© 2025 Akunna Onyekachi
-```
