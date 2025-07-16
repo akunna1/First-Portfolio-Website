@@ -14,7 +14,7 @@ A simple, responsive personal website showcasing projects and skills before upgr
 
 ## 🌟 Features
 
-* 📱 Mobile-responsive design
+* Mobile-responsive design
 * Interactive elements with vanilla JS
 * Clean layout and navigation
 
