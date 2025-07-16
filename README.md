@@ -1,71 +1,38 @@
 ```markdown
-# 🌐 Legacy Version — Akunna Tech Studio
+# Legacy Version — Akunna Tech Studio
 
-This code is for the **previous version** of **Akunna Tech Studio**, built entirely with **vanilla HTML, CSS, and JavaScript**. It served as the original portfolio and project showcase before being upgraded to a full-stack platform.
+This code is for the previous version of Akunna Tech Studio, built with vanilla HTML, CSS, and JavaScript.
 
----
+## Project Purpose
 
-## ✨ Project Purpose
+A simple, responsive personal website showcasing projects and skills before upgrading to the current full-stack version.
 
-To create a simple, responsive personal tech studio website that highlights:
-- Project showcases
-- Technical skills
-- Personal branding
+## Built With
 
----
+- HTML  
+- CSS  
+- JavaScript
 
-## 🛠 Built With
+## Features
 
-- **HTML5** – structure  
-- **CSS3** – styling, animations, layout  
-- **JavaScript** – interactivity and dynamic behavior
+- Mobile-responsive design  
+- Interactive elements with vanilla JS  
+- Clean layout and navigation
 
----
-
-## 📁 Features
-
-- Clean, mobile-responsive layout  
-- Animated sections and interactive elements  
-- Smooth scroll and section navigation  
-- Project cards with clickable links  
-- Contact form design (static)
-
----
-
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 
 ├── index.html
-├── /css
-│   └── style.css
-├── /js
-│   └── main.js
-├── /images
-│   └── (project thumbnails, icons, etc.)
+├── css/style.css
+├── js/main.js
+├── images/
 
 ```
 
----
+## Note
 
-## 📸 Preview
+This legacy version is no longer maintained and is provided for reference only.
 
-This version has been replaced by a newer full-stack version.  
-You can still explore this legacy version for educational/reference purposes.
-
----
-
-## 🔗 Live Site (Legacy)
-
-🟡 No longer live — replaced by:  
-🔗 [akunnatechstudio.com](https://akunnatechstudio.com)
-
----
-
-## 📌 Note
-
-This project is no longer maintained. It exists to show the evolution of Akunna Tech Studio from a static site to a dynamic full-stack platform.
-
----
-
-© 2025 Akunna Onyekachi — All rights reserved.
+© 2025 Akunna Onyekachi
+```
