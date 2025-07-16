@@ -1,34 +1,33 @@
-# Legacy Version — Akunna Tech Studio
+# ✨ Legacy Version — Akunna Tech Studio
 
-This code is for the previous version of Akunna Tech Studio, built with vanilla HTML, CSS, and JavaScript.
+This code is for the previous version of **Akunna Tech Studio**, built with vanilla HTML, CSS, and JavaScript.
 
-## Project Purpose
+## 🎯 Project Purpose
 
 A simple, responsive personal website showcasing projects and skills before upgrading to the current full-stack version.
 
-## Built With
+## 🛠️ Built With
 
-- HTML  
-- CSS  
-- JavaScript
+* HTML
+* CSS
+* JavaScript
 
-## Features
+## 🌟 Features
 
-- Mobile-responsive design  
-- Interactive elements with vanilla JS  
-- Clean layout and navigation
+* 📱 Mobile-responsive design
+* ⚡ Interactive elements with vanilla JS
+* 🧭 Clean layout and navigation
 
-## Folder Structure
+## 🗂️ Folder Structure
 
 ```
-
 ├── index.html
 ├── css/style.css
 ├── js/main.js
 ├── images/
-
 ```
 
-## Note
+## 📌 Note
 
 This legacy version is no longer maintained and is provided for reference only.
+
