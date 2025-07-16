@@ -1,4 +1,4 @@
-# ✨ Legacy Version — Akunna Tech Studio
+# Legacy Version — Akunna Tech Studio
 
 This code is for the previous version of **Akunna Tech Studio**, built with vanilla HTML, CSS, and JavaScript.
 
@@ -15,8 +15,8 @@ A simple, responsive personal website showcasing projects and skills before upgr
 ## 🌟 Features
 
 * 📱 Mobile-responsive design
-* ⚡ Interactive elements with vanilla JS
-* 🧭 Clean layout and navigation
+* Interactive elements with vanilla JS
+* Clean layout and navigation
 
 ## 🗂️ Folder Structure
 
